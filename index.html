@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<script src="script.js" type="text/javascript" defer></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>JoKenPo</title>
+	<script src="assets/script/script.js" type="text/javascript" defer></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="shortcut icon" href="assets/image/woah_ico.jpg" type="image/x-icon" />
+
 </head>
 <body>
-	<button id="btn1" class="botao" value="0">PEDRA</button>
-	<button id="btn2" class="botao" value="1">PAPEL</button>
-	<button id="btn3" class="botao" value="2">TESOURA</button>
+
+	<div class="container-imagens">
+		<img src="assets/image/0.png" id="jogador">
+		<img src="assets/image/0Invertida.png" id="oponente">
+	</div>
+
+	<div class="texto">
+		<div>
+			<p>JoKenPo</p>
+			<p id="resultado">Resultado:</p>
+		</div>
+		<div>
+			
+		</div>
+	</div>
+
+	<div class="container-opcoes">
+		<button id="btn1" class="botao" value="0"></button>
+		<button id="btn2" class="botao" value="1"></button>
+		<button id="btn3" class="botao" value="2"></button>
+	</div>
+	
 </body>
 </html>
